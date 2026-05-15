@@ -14,7 +14,7 @@ from crypto_research import CryptoResearcher
 
 print("=" * 60)
 print("🎯 MiMo Crypto Agent — Airdrop Tracker")
-print("   Powered by Xiaomi MiMo V2.5")
+print("   Powered by Xiaomi MiMo")
 print("=" * 60)
 print()
 

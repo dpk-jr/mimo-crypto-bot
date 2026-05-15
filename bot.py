@@ -1,6 +1,6 @@
 """
 MiMo Crypto Agent — AI Crypto Research Telegram Bot
-Powered by Xiaomi MiMo V2.5
+Powered by Xiaomi MiMo
 
 Features:
 - Natural language crypto research powered by MiMo
@@ -42,7 +42,7 @@ researcher = CryptoResearcher()
 
 # ─── System Prompt ───────────────────────────────────────────────────────────
 
-SYSTEM_PROMPT = """You are MiMo Crypto Agent — an AI-powered crypto research assistant built on Xiaomi MiMo V2.5.
+SYSTEM_PROMPT = """You are MiMo Crypto Agent — an AI-powered crypto research assistant built on Xiaomi MiMo.
 
 Your capabilities:
 1. Research any crypto project (fundamentals, tokenomics, team, roadmap)
@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Welcome message."""
     welcome = """
 🤖 **MiMo Crypto Agent** — AI Crypto Research Assistant
-Powered by Xiaomi MiMo V2.5
+Powered by Xiaomi MiMo
 
 **Commands:**
 /research `<token>` — Deep research on a crypto project
@@ -214,7 +214,7 @@ Just type any question about crypto!
 • "Compare Uniswap vs Curve"
 • "How to bridge to Base?"
 
-**Built with:** Xiaomi MiMo V2.5 🤖
+**Built with:** Xiaomi MiMo 🤖
 """
     await update.message.reply_text(help_text, parse_mode="Markdown")
 

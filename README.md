@@ -1,6 +1,6 @@
-# 🤖 MiMo Crypto Agent
+# 🤖 Crypto Agent — AI Crypto Research Telegram Bot
 
-AI-powered Crypto Research Telegram Bot built on **Xiaomi MiMo V2.5**
+AI-powered Crypto Research Telegram Bot built on **Xiaomi MiMo**
 
 ## Features
 
@@ -13,7 +13,7 @@ AI-powered Crypto Research Telegram Bot built on **Xiaomi MiMo V2.5**
 
 ## Tech Stack
 
-- **AI Model:** Xiaomi MiMo V2.5 (OpenAI-compatible API)
+- **AI Model:** Xiaomi MiMo (OpenAI-compatible API)
 - **Bot Framework:** python-telegram-bot
 - **Data Source:** CoinGecko API
 - **Language:** Python 3.11+
@@ -23,7 +23,7 @@ AI-powered Crypto Research Telegram Bot built on **Xiaomi MiMo V2.5**
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mimo-crypto-bot.git
+git clone https://github.com/dpk-jr/mimo-crypto-bot.git
 cd mimo-crypto-bot
 pip install -r requirements.txt
 ```
@@ -66,11 +66,11 @@ Or just **chat naturally** — ask anything about crypto!
 │              Bot Core (bot.py)               │
 │   Command handlers + Chat handler            │
 ├──────────────────┬──────────────────────────┤
-│  MiMo Client     │   Crypto Researcher       │
+│  AI Client       │   Crypto Researcher       │
 │  (mimo_client.py)│   (crypto_research.py)    │
 │                  │                            │
 │  Xiaomi MiMo     │   CoinGecko API           │
-│  V2.5 API        │   (market data)            │
+│  API             │   (market data)            │
 └──────────────────┴──────────────────────────┘
 ```
 
@@ -91,7 +91,7 @@ mimo-crypto-bot/
 1. **User sends message** → Telegram Bot receives it
 2. **Bot processes** → Determines if it's a command or chat
 3. **Data gathering** → Fetches real-time crypto data (if needed)
-4. **MiMo inference** → Sends context + query to Xiaomi MiMo V2.5
+4. **AI inference** → Sends context + query to Xiaomi MiMo
 5. **Response** → Formats and sends back to user
 
 The bot maintains conversation history per user, enabling natural multi-turn conversations about crypto topics.
@@ -110,7 +110,7 @@ MIT
 
 ## Built With
 
-- [Xiaomi MiMo V2.5](https://mimo.xiaomi.com/) — AI Model
+- [Xiaomi MiMo](https://mimo.xiaomi.com/) — AI Model
 - [python-telegram-bot](https://python-telegram-bot.org/) — Telegram Bot Framework
 - [CoinGecko API](https://www.coingecko.com/en/api) — Crypto Market Data
 - [OpenAI Python SDK](https://github.com/openai/openai-python) — API Client

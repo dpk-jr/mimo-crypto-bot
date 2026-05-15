@@ -15,7 +15,7 @@ from crypto_research import CryptoResearcher
 
 print("=" * 60)
 print("🤖 MiMo Crypto Agent — Live Demo")
-print("   Powered by Xiaomi MiMo V2.5")
+print("   Powered by Xiaomi MiMo")
 print("=" * 60)
 print()
 
@@ -59,11 +59,11 @@ else:
 
 print()
 print("=" * 60)
-print("🧠 MiMo V2.5 Integration")
+print("🧠 MiMo Integration")
 print("=" * 60)
 print()
 print("   API Provider: Xiaomi MiMo")
-print("   Model: MiMo-V2.5")
+print("   Model: Configured via .env")
 print("   Format: OpenAI-compatible")
 print("   Features:")
 print("   • Natural language crypto research")

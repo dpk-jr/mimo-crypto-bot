@@ -1,6 +1,6 @@
 """
 Xiaomi MiMo API Client
-OpenAI-compatible interface for MiMo V2.5
+OpenAI-compatible interface
 """
 
 import os
@@ -16,7 +16,7 @@ class MiMoClient:
             api_key=os.getenv("MIMO_API_KEY"),
             base_url=os.getenv("MIMO_BASE_URL", "https://api.xiaomimimo.com/v1"),
         )
-        self.model = os.getenv("MIMO_MODEL", "MiMo-V2.5")
+        self.model = os.getenv("MIMO_MODEL", "mimo-default")
 
     async def chat(
         self,
